@@ -8,17 +8,16 @@
 
     //Inicio
    printf("Antes Incremento: %d \n", numero1);
-    resultado = numero1++;
     
-    //numero1++;
-   printf("Após o pos Incremento numero1 : %d - resultado: %d\n", numero1, resultado);
-
-    resultado = ++numero1;
     
-    printf("Após pre Incremento numero1 : %d - resultado: %d\n", numero1, resultado);
+   numero1++;
+   printf("Após o Incremento numero1 : %d \n", numero1);
 
-    //numero1--;
-    //printf("Após Incremento: %d \n", numero1);
+   numero1--;
+   printf("Após o decremento: %d", numero1);
+
+
+   
 
     return 0;
 }
