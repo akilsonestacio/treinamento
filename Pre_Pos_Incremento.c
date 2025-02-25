@@ -23,6 +23,7 @@ resultado = --numero1;
 
 printf ("Após o Pré-Decremento numero1: %d - Resulatdo: %d \n", numero1, resultado);
 
+
 return 0;
 
 }
