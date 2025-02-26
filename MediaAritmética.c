@@ -17,8 +17,8 @@ int main(){
     media = (n1+n2+n3)/3;
     
     //Impressão
-    
-    printf("O valor da média é: %f", media);
+
+    printf("O valor da média é: %.2f", media);
 
 
     return 0;
