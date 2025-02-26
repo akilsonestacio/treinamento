@@ -15,6 +15,9 @@ int main(){
     printf("Digite a nota da 3ª avaliação: ");
     scanf("%f", &n3);
     media = (n1+n2+n3)/3;
+    
+    //Impressão
+    
     printf("O valor da média é: %f", media);
 
 
