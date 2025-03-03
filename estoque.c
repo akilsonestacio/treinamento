@@ -17,11 +17,17 @@ int main(){
     
     double valorTotalA;
     double valorTotalB;
+
+    int resultadoA, resultadoB;
     
     printf("Produto: %s, tem estoque: %u e valor unitário: %.2f \n", produtoA, estoqueA, valorA);
     printf("Produto: %s, tem estoque: %u e valor unitário: %2.f \n", produtoB, estoqueB, valorB);
 
-  
+    resultadoA = estoqueA > estoqueMinA;
+    resultadoB = estoqueB > estoqueMinB;
+    
+    printf("O %s tem estoque mínimo %d \n", produtoA, resultadoA);
+    printf("O %s, tem estoque mínimo %d \n", produtoA, resultadoB);
 
 
 
