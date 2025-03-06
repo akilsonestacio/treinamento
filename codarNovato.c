@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main(){
+int main(){
 
     //Variáveis
 
@@ -38,6 +38,7 @@ main(){
         
 
     }
-    return 0;
+   
+   return 0;
 
 }
