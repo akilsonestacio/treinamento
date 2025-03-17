@@ -24,16 +24,18 @@
         printf("A média é: %.2f", media);}
         else{printf("Algum valor inválido");}
         break;
-        
+        case 2:
+        printf("Entre com a média: ");
+        scanf("%f", &media);
+        media >= 6? printf ("Aprovado") : printf ("Reprovado");
+        break;
+        case 3:
+        printf("**Sistema Finalizado**");
+        break;
         default:
         printf("Opção inválida");
         break;
     }
-
-
-
-  
-
-
+    
   return 0;  
  }
